@@ -1,0 +1,68 @@
+{
+  "name": "pesaro",
+  "version": "1.0.0",
+  "description": "",
+  "main": "gulpfile.babel.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "19",
+  "license": "ISC",
+  "babel": {
+    "presets": [
+      "latest"
+    ]
+  },
+  "dependencies": {
+    "babel-polyfill": "^6.16.0",
+    "browser-sync": "^2.18.5",
+    "font-awesome": "^4.7.0",
+    "gulp-google-webfonts": "0.0.14",
+    "gulp-notify": "^2.2.0",
+    "gulp-plumber": "^1.1.0",
+    "gulp-preprocess": "^2.0.0",
+    "imagemin-jpeg-recompress": "^5.1.0",
+    "jquery": "^3.2.1",
+    "lity": "^2.2.2",
+    "mathsass": "^0.9.5",
+    "mobile-detect": "^1.3.6",
+    "node-notifier": "^5.1.2",
+    "reset-css": "^2.2.0",
+    "sass-mq": "^3.3.2",
+    "slick-carousel": "^1.6.0",
+    "vue": "^2.3.2"
+  },
+  "devDependencies": {
+    "babel-loader": "^6.2.8",
+    "babel-preset-latest": "^6.16.0",
+    "del": "^2.2.2",
+    "expose-loader": "^0.7.3",
+    "gulp": "^3.9.1",
+    "gulp-babel": "^6.1.2",
+    "gulp-cached": "^1.1.1",
+    "gulp-changed": "^3.1.0",
+    "gulp-cssnano": "^2.1.2",
+    "gulp-data": "^1.2.1",
+    "gulp-filter": "^5.0.0",
+    "gulp-if": "^2.0.2",
+    "gulp-imagemin": "^3.2.0",
+    "gulp-load-plugins": "^1.5.0",
+    "gulp-postcss": "^6.2.0",
+    "gulp-pug": "^3.3.0",
+    "gulp-pug-inheritance": "^0.2.1",
+    "gulp-rev-all": "^0.9.7",
+    "gulp-sass": "^2.3.2",
+    "gulp-sass-glob": "^1.0.8",
+    "gulp-tap": "^1.0.1",
+    "gulp-watch": "^4.3.11",
+    "postcss-assets": "^4.1.0",
+    "postcss-cssnext": "^2.9.0",
+    "pug": "^2.0.0-rc.1",
+    "pug-include-glob": "^0.3.3",
+    "run-sequence": "^1.2.2",
+    "vinyl-named": "^1.1.0",
+    "webpack": "^2.4.1",
+    "webpack-stream": "^3.2.0",
+    "yargs": "^7.1.0"
+  }
+}

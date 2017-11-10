@@ -1,0 +1,28 @@
+.Index
+  transform: translateZ(0)
+  line-height: 0.5
+
+.item
+  position: relative
+
+  .gif, .mp4
+    position: absolute
+    left: 50%
+    top: 50%
+    &--6
+      transform: translate(-50%, -50%)
+      width: 27%
+    &--8
+      transform: translateY(-50%)
+      width: 30%
+      left: auto
+      right: 0
+    &--15
+      width: 30%
+      left: 10%
+      transform: translateY(-50%)
+
+.img
+  max-width: 100%
+  height: auto
+  transform: translateZ(0)

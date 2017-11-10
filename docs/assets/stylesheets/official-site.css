@@ -1,0 +1,118 @@
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+main, menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline; }
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, main, menu, nav, section {
+  display: block; }
+
+body {
+  line-height: 1; }
+
+ol, ul {
+  list-style: none; }
+
+blockquote, q {
+  quotes: none; }
+  blockquote:before, blockquote:after, q:before, q:after {
+    content: '';
+    content: none; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+.u-clearfix:after {
+  content: '';
+  display: table;
+  clear: both; }
+
+.u-flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between; }
+
+.u-fullWidth {
+  width: 100%; }
+
+.u-textCenter {
+  text-align: center; }
+
+.u-uppercase {
+  text-transform: uppercase; }
+
+.u-hide {
+  display: none !important; }
+
+.u-textReplacement {
+  font-size: 0; }
+
+body:before {
+  top: auto;
+  bottom: 0; }
+
+*, *:before, *:after {
+  box-sizing: border-box; }
+
+html, body {
+  -webkit-overflow-scrolling: touch; }
+
+a {
+  -webkit-tap-highlight-color: transparent; }
+
+.Index {
+  -webkit-transform: translateZ(0);
+          transform: translateZ(0);
+  line-height: 0.5; }
+
+.item {
+  position: relative; }
+  .item .gif, .item .mp4 {
+    position: absolute;
+    left: 50%;
+    top: 50%; }
+    .item .gif--6, .item .mp4--6 {
+      -webkit-transform: translate(-50%, -50%);
+              transform: translate(-50%, -50%);
+      width: 27%; }
+    .item .gif--8, .item .mp4--8 {
+      -webkit-transform: translateY(-50%);
+              transform: translateY(-50%);
+      width: 30%;
+      left: auto;
+      right: 0; }
+    .item .gif--15, .item .mp4--15 {
+      width: 30%;
+      left: 10%;
+      -webkit-transform: translateY(-50%);
+              transform: translateY(-50%); }
+
+.img {
+  max-width: 100%;
+  height: auto;
+  -webkit-transform: translateZ(0);
+          transform: translateZ(0); }

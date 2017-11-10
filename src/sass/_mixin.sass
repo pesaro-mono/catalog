@@ -1,0 +1,58 @@
+@function to-em($px)
+  @return #{$px / 16}em
+
+=to-center($width: nil, $height: nil)
+  position: absolute
+  left: 50%
+  top: 50%
+  transform: translate(-50%, -50%)
+  @if $width != nil
+    width: $width
+    height: $height
+
+=xx
+  outline: 1px solid rgba(red, .4)
+
+// media query ------------------------------------------------------------------
+
+=mq-small-below
+  +mq($until: small)
+    @content
+
+=mq-small
+  +mq(small)
+    @content
+
+=mq-medium
+  +mq(medium)
+    @content
+
+=mq-large
+  +mq(large)
+    @content
+
+=mq-xlarge
+  +mq(xlarge)
+    @content
+
+=mq-menuBreak
+  +mq($from: 900px)
+    @content
+
+=mq-menuBreak-below
+  +mq($until: 900px)
+    @content
+
+=landscape
+  +mq($and: $mq-landscape)
+    @content
+
+=retina
+  +mq($and: $mq-hidpi)
+    @content
+
+=clearfix
+  &:after
+    content: ''
+    display: table
+    clear: both
