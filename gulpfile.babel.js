@@ -74,7 +74,7 @@ gulp.task('clean', () => {
 });
 
 gulp.task('assets', (cb) => {
-  gulp.src(`${paths.images}**/*.{jpg,jpeg,png,gif,svg,cur,mp4}`)
+  gulp.src(`${paths.images}**/*.{jpg,jpeg,png,gif,svg,cur}`)
     .pipe($.if(argv.minify,
       $.imagemin([
         imageminJpegRecompress({

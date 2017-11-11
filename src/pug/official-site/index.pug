@@ -2,9 +2,11 @@ extends /template/_default
 
 block content
   .Index
-    - var length = 26;
+    - var length = 32;
+    - var videoId = 1;
     - for(var i = 1; i <= length; i++)
       .item(class=`item--${i}`)
         img.img(src=`assets/images/${i}.jpg`)
-        if [6, 8, 15].includes(i)
-          video.mp4(class=`mp4--${i}` src=`https://s3-ap-northeast-1.amazonaws.com/pesaro/${i}.mp4` autoplay loop muted playsinline)
+        if [6, 8, 14].includes(i)
+          video.mp4(class=`mp4--${i}` src=`https://s3-ap-northeast-1.amazonaws.com/pesaro/${videoId}.mp4` autoplay loop muted playsinline)
+          - videoId++

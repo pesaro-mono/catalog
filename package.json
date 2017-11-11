@@ -4,7 +4,8 @@
   "description": "",
   "main": "gulpfile.babel.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "gulp build --minify"
   },
   "author": "19",
   "license": "ISC",
